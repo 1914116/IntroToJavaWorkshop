@@ -10,7 +10,10 @@ public class Greeter {
 		JOptionPane.showMessageDialog(null, "Hello "+answer);
 		String solution= JOptionPane.showInputDialog(null, "That is a terrible name. How are you?");
 		if (answer.equals("Good")){
-			JOptionPane.showMessageDialog(null, "Wow, thats disappointing");
+			JOptionPane.showInputDialog(null, "Wow, thats disappointing");
+		}
+		if(answer.equals("Bad")){
+			JOptionPane.showInputDialog(null, "I Really Don't Care");
 		}
 	}
 
