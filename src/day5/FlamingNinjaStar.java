@@ -28,7 +28,7 @@ public class FlamingNinjaStar {
 		Eli.setSpeed(10);
 
 		// 13. Make all the code below repeat 25 times
-		for (int i = 0; i < 123; i++) {
+		for (int i = 0; i < 119; i++) {
 			
 		
 			// 2. Turn the robot 1/8 of a circle
